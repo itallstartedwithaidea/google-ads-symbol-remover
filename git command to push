@@ -1,0 +1,28 @@
+# Navigate to your project directory or create a new one
+mkdir google-ads-symbol-remover
+cd google-ads-symbol-remover
+
+# Initialize git repository
+git init
+
+# Create and add all files
+# (Copy the files I provided above into this directory)
+
+# Add all files to git
+git add .
+
+# Commit the files
+git commit -m "Initial commit: Google Ads Symbol Remover v1.0.0
+
+- RSA and Performance Max symbol removal
+- Configurable symbols array
+- Automatic spacing cleanup
+- Comprehensive logging and error handling
+- Safe approach: pauses old ads instead of deleting"
+
+# Add your GitHub repository as remote
+git remote add origin https://github.com/YOUR_USERNAME/google-ads-symbol-remover.git
+
+# Push to GitHub
+git branch -M main
+git push -u origin main
